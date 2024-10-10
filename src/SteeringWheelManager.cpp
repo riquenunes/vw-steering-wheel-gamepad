@@ -42,6 +42,7 @@ byte* SteeringWheelManager::readButtonStates() {
 }
 
 void SteeringWheelManager::setBacklightsBrightness(uint8_t brightness) {
+  // for some reason we always need to send a second byte with 0xFF, otherwise the steering wheel stops reporting button states
   uint8_t data[2] = {brightness, 0xFF};
   lin.resetStateMachine();
   lin.resetError();
