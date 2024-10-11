@@ -33,6 +33,7 @@ byte* SteeringWheelManager::readButtonStates() {
   }
 
   for (byte i = 0; i < NUM_OF_BUTTONS - 1; i++) {
+    // button state is the second byte of the 0x0E frame
     buttonStates[i] = linFrameData[1] == linButtonIds[i];
   }
 
