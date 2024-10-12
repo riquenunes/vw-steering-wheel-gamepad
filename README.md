@@ -74,3 +74,9 @@ The steering wheel communicates using LIN frames. Here's a breakdown of the rele
 | 0x28 | -       |
 | 0x2A | -            |
 | 0x2B |-            |
+
+
+## Planned Features
+- [ ] Customizable backlight brightness levels via button combinations
+- [ ] Backlight control via BLE, allowing manual adjustment on connected devices or automatic changes based on game events, such as headlight activation
+- [ ] Airbag deployment based on in-game collisions for added immersion

@@ -74,3 +74,8 @@ O volante se comunica usando frames LIN. Aqui está uma análise dos frames rele
 | 0x28 | -                |
 | 0x2A | -                |
 | 0x2B | -                |
+
+## Funcionalidades Futuras
+- [ ] Brilho dos botões personalizável via combinações de botões
+- [ ] Controle da luz dos botões via BLE, permitindo ajustes manuais em dispositivos conectados ou mudanças automáticas com base em eventos do jogo, como ativação dos faróis
+- [ ] Ativação de airbag com base em colisões no jogo para maior imersão
